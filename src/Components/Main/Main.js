@@ -22,6 +22,7 @@ function Main() {
             </div>
         </div>
         <div className="about_video">
+        <iframe width="944" height="498" src="https://www.youtube.com/embed/z7SkNWQINds?list=RDz7SkNWQINds" title="MORGENSHTERN, kizaru - Double Cup (Клип, 2022)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div className="about_menu">
             <div className="links">
