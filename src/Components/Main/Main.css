@@ -1,0 +1,203 @@
+.main_page
+{
+    height: 100vh;
+    background: url(../../imgs/mainp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.main_txt
+{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 0 6%;
+    color: #fff;
+}
+
+.main_txt button
+{
+    width: 180px;
+    padding: 8px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: coral;
+    color: #fff;
+    margin: 30px 0 10px;
+}
+
+.main_txt h1
+{
+    font-size: 2.7em;
+}
+
+.main_txt h2
+{
+    font-weight: 400;
+}
+
+.main_txt a
+{
+    color: #fff;
+}
+
+/* ///////////////////////////////////////// */
+/* ///////////////////////////////////////// */
+
+
+.about_video
+{
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_video iframe
+{
+    border-radius: 10px;
+}
+
+
+
+/* ///////////////////////////////////////// */
+/* ///////////////////////////////////////// */
+
+
+
+.about_menu
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #fff;
+}
+
+.links
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 70px;
+    width: 80%;
+    height: 80%;
+}
+
+.links div
+{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #d4d1d1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 10px;
+}
+
+
+.links div svg
+{
+    font-size: 5em;
+    color: rgb(14, 140, 250);
+}
+/* ///////////////////////////////////////// */
+/* ///////////////////////////////////////// */
+
+
+.hamkorlar
+{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.logos
+{
+    width: 100%;
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos img
+{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+
+
+
+/* ///////////////////////////////////////// */
+/* ///////////////////////////////////////// */
+
+
+
+.team
+{
+    height: auto;
+    background: #fff;
+    padding: 30px;
+}
+
+
+.team_box
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    padding: 10px;
+    gap: 40px;
+    height: auto;
+}
+
+.team_box div
+{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #d4d1d1;
+    position: relative;
+    overflow: hidden;
+    background: url(../../imgs//team_img_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.team_box div p
+{
+    width: 100%;
+    padding: 7px;
+    background: #d4d4d477;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    cursor: default;
+}
+
+
+
+/* ///////////////////////////////////////// */

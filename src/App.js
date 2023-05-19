@@ -1,9 +1,15 @@
 
+import Navbar from './Components/Navbar/Navbar'
+import Main from './Components/Main/Main'
+import Footer from './Components/Footer/Footer'
+
 
 function App() {
   return (
    <>
-      <h1>Hello world</h1>
+   <Navbar />
+   <Main />
+   <Footer />
    </>
   );
 }
