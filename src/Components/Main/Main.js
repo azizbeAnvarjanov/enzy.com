@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.css';
 
+
 import { TbSchool } from 'react-icons/tb'
 
 import logos_1 from '../../imgs/logos_1.png'
@@ -11,24 +12,22 @@ import logos_5 from '../../imgs/logos_5.png'
 
 
 function Main() {
+
+
+
+
   return (
     <>
-        <div className='main_page'>
-            <div className='main_txt'>
-              <h1>Biz sizdagi "tibbiyot qiyin" degan stereotipingizni o'zgartiramiz!</h1>
-              <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
-              <button>Boshlash</button>
-              <a href="#">Demo</a>
-            </div>
+        <div className='main_page active'>
         </div>
         <div className="about_video">
-        <iframe width="944" height="498" src="https://www.youtube.com/embed/z7SkNWQINds?list=RDz7SkNWQINds" title="MORGENSHTERN, kizaru - Double Cup (Клип, 2022)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="885" height="498" src="https://www.youtube.com/embed/FaR7bnXnRjs" title="Sinapslar I fiziologiya 2-qism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div className="about_menu">
             <div className="links">
                 <div>
                   <TbSchool />
-                  <h2>Step цвц1</h2>
+                  <h2>Step 1</h2>
                   <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
                 <div>
@@ -81,7 +80,7 @@ function Main() {
         </div>
 
         <div className="team">
-            <h1>Jamoas</h1>
+            <h1>Bizning jamoa</h1>
             <div className='team_box'>
                 <div>
                   <p>Anvarjanov Azizbek</p>
