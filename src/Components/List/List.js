@@ -19,93 +19,73 @@ function List() {
         <div className="list_box">
 
           <div className='Science'>
-            <h3>1.</h3>
             <div className="logo">
               <img src={CellBiology} alt="" />
             </div>
-            <h2>Cell biology</h2>
-            <a href="#">O'qish</a>
+            <h2>Hujayra biologiyasi</h2>
           </div>
 
           <div className='Science'>
-            <h3>2.</h3>
             <div className="logo">
               <img src={Embryology} alt="" />
             </div>
-            <h2>Embryology</h2>
-            <a href="#">O'qish</a>
+            <h2>Embriologiya</h2>
           </div>
 
           <div className='Science'>
-            <h3>3.</h3>
             <div className="logo">
               <img src={Anatomy} alt="" />
             </div>
-            <h2>Anatomy</h2>
-            <a href="#">O'qish</a>
+            <h2>Anatomiya</h2>
           </div>
 
           <div className='Science'>
-            <h3>4.</h3>
             <div className="logo">
               <img src={Neuroanatomy} alt="" />
             </div>
-            <h2>Neuroanatomy</h2>
-            <a href="#">O'qish</a>
+            <h2>Neyroanatomiya</h2>
           </div>
 
           <div className='Science'>
-            <h3>5.</h3>
             <div className="logo">
               <img src={Physiology} alt="" />
             </div>
-            <h2>Physiology</h2>
-            <a href="#">O'qish</a>
+            <h2>Fiziologiya</h2>
           </div>
 
           <div className='Science'>
-            <h3>6.</h3>
             <div className="logo">
               <img src={Biochemistry} alt="" />
             </div>
-            <h2>Biochemistry</h2>
-            <a href="#">O'qish</a>
+            <h2>Bioximiya</h2>
           </div>
 
           <div className='Science'>
-            <h3>7.</h3>
             <div className="logo">
               <img src={Pharmacology} alt="" />
             </div>
-            <h2>Pharmacology</h2>
-            <a href="#">O'qish</a>
+            <h2>Farmakologiya</h2>
           </div>
 
           <div className='Science'>
-            <h3>8.</h3>
             <div className="logo">
               <img src={Microbiology} alt="" />
             </div>
-            <h2>Microbiology</h2>
-            <a href="#">O'qish</a>
+            <h2>Mikrobiologiya</h2>
           </div>
 
           <div className='Science'>
-            <h3>9.</h3>
             <div className="logo">
               <img src={Immunology} alt="" />
             </div>
-            <h2>Immunology</h2>
-            <a href="#">O'qish</a>
+            <h2>Immunologiya</h2>
           </div>
 
           <div className='Science'>
-            <h3>10.</h3>
             <div className="logo">
               <img src={Pathology} alt="" />
             </div>
-            <h2>Pathology</h2>
-            <a href="#">O'qish</a>
+            <h2>Patalogiya</h2>
           </div>
 
         </div>

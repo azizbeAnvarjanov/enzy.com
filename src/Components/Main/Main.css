@@ -2,10 +2,10 @@
 {
     height: 100vh;
     width: 100%;
-    background: url(../../imgs/mainp.jpg);
+    /* background: url(../../imgs/mainp.jpg); */
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
     overflow-x: hidden !important;
     position: relative;
 }
@@ -29,10 +29,12 @@
     border-radius: 50px;
     border: none;
     outline: none;
-    background: coral;
+    background: #5d00d6;
     color: #fff;
     margin: 30px 0 10px;
 }
+
+
 
 .main_txt h1
 {
@@ -56,17 +58,26 @@
 .about_video
 {
     height: 100vh;
-    background: #fff;
+    /* background: #fff; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+    /* background: var(--000); */
+    position: relative;
 }
+
+
+
+
+
 
 .about_video iframe
 {
     border-radius: 10px;
 }
+
 
 
 
@@ -120,7 +131,7 @@
 {
     width: 100%;
     height: auto;
-    background: #fff;
+    /* background: #fff; */
     text-align: center;
     padding: 50px 30px;
 }
@@ -152,9 +163,10 @@
 .team
 {
     height: auto;
-    background: #fff;
+    /* background: #fff; */
     padding: 30px;
     text-align: center;
+    color: #fff;
 }
 
 .team h1
@@ -183,7 +195,6 @@
 {
     width: 270px;
     height: 270px;
-    border-radius: 50%;
     box-shadow: 0 5px 10px #d4d1d1;
     position: relative;
     overflow: hidden;
@@ -205,19 +216,45 @@
 .worker
 {
     margin: 0 10px;
-    width: 28%;
-    height: 70vh;
+    width: 20%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 0 10px;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 111;
 }
 
 .worker h2
 {
     text-transform: uppercase !important;
+    font-size: .5em !important;
 }
 
+
+.worker_img
+{
+    width: 100%;
+    height: 50%;
+    
+}
+
+
+.worker_img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.worker_info
+{
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.088) 10%, rgba(255,255,255,0) 100%);
+    padding: 10px 15px;
+    font-size: .8em;
+    width: 100%;
+}
 
 /* ///////////////////////////////////////// */

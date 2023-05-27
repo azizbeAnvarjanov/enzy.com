@@ -183,9 +183,8 @@ function Navbar() {
     
             </ul>
             <div className="login-register">
-              <FaRegQuestionCircle />
-              <FaRegUser />
-              <FaShoppingBag />
+              <button className='login_btn'>Login</button>
+              <button className='register_btn'>Registertion</button>
             </div>
           </div>
         </div>

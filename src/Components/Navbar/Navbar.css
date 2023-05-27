@@ -21,7 +21,9 @@
     top: 0px;
     transform: translateX(-50%);
     z-index: 1000;
-    background: rgb(0, 0, 0);
+    background: #14141482;
+    box-shadow: 0 0px 5px #d4d1d12a;
+    backdrop-filter: blur(50px);
     /* background: var(--gb-color); */
     /* padding: 8px 5px 5px 5px !important; */
     /* backdrop-filter: blur(50px); */
@@ -51,7 +53,7 @@
 .login-register
 {
     color: #fff;
-    width: 120px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,6 +63,47 @@
 {
     font-size: 1.5em;
 }
+
+
+.login_btn,
+.register_btn
+{
+    background: transparent;
+    border-radius: 50px;
+    padding: 5px 20px;
+    outline: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.login_btn
+{
+    border: 2px solid #5d00d6;
+    color: #fff;
+    margin-right: 5px;
+    transition: .5s;
+}
+
+.login_btn:hover
+{
+    background: #5d00d6;
+    box-shadow: 0 0 10px 3px #5d00d6;
+}
+
+.register_btn
+{
+    background: #5d00d6;
+    border: none;
+    color: #fff;
+    padding: 7px 21px;
+    transition: .5s;
+}
+
+.register_btn:hover
+{
+    box-shadow: 0 0 10px 3px #5d00d6;
+}
+
 
 
 
@@ -181,6 +224,7 @@
     position: relative;
     text-transform: uppercase;
     cursor: pointer;
+    font-size: .9em;
 }
 .navigation li a:hover {
     background: var(--fff);
@@ -297,14 +341,14 @@
     overflow: hidden;
     visibility: hidden;
     opacity: 0;
-    box-shadow: 0 5px 10px #d4d1d185;
+    /* box-shadow: 0 5px 10px var(--gb-color); */
 }
 
 .ul_menu_1 li a,
 .ul_menu_2 li a,
 .ul_menu_3 li a
 {
-    color: #000 !important;
+    color: var(--000)!important;
     border-radius: 0;
 }
 
@@ -312,7 +356,7 @@
 .ul_menu_2 li a:hover,
 .ul_menu_3 li a:hover
 {
-    background: #000;
+    background: var(--000);
     color: #fff !important;
 }
 
