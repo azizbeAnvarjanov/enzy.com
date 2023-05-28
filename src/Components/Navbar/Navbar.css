@@ -352,7 +352,7 @@
 .ul_menu_2 li a,
 .ul_menu_3 li a
 {
-    color: var(--000)!important;
+    color: var(--000);
     border-radius: 0;
 }
 
@@ -521,15 +521,9 @@
     {
         display: flex !important;
         align-items: center !important;
-
+        color: #fff !important;
     }
 
-    .menu_1,
-    .menu_2,
-    .menu_3
-    {
-        width: 150px;
-    }
 
     .navigation::-webkit-scrollbar
     {
