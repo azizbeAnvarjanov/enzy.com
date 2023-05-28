@@ -118,12 +118,15 @@ footer
 .info_enyzyme a
 {
     font-size: 1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .info_enyzyme a svg
 {
     margin-right: 12px;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 

@@ -292,6 +292,7 @@ body::before
     }
 
 
+
    
 }
 
@@ -332,6 +333,14 @@ body::before
     {
         grid-template-columns: repeat(2,1fr);
     }
+
+    body::before{
+        top: 3%;
+        right: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 0 3000px 150px #5d00d6;
+    }
+
 }
 
 

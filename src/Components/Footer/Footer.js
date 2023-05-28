@@ -5,7 +5,7 @@ import { IoIosArrowUp } from 'react-icons/io';
 import { RiBuilding2Fill } from 'react-icons/ri';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdMarkEmailUnread } from 'react-icons/md';
-import { BsChatText, BsTelegram, BsInstagram, BsFacebook, BsWhatsapp} from 'react-icons/bs';
+import { BsChatText, BsTelegram, BsInstagram, BsYoutube} from 'react-icons/bs';
 
 import logomini from '../../imgs/logo alohida.png'
 
@@ -32,39 +32,36 @@ function Footer() {
               <h3>Enyzyme</h3>
             </div>
             <div className="info_enyzyme">
-            <a target="_blank" href='https://goo.gl/maps/QEviBtDeDuxLpc148'>
+            <a target="_blank" href='#'>
                 <RiBuilding2Fill />
                 Enzyme
                 </a>
 
-                <a href='mialto:info@impulsmi.uz'>
+                <a href='mialto:info@enzyme.uz'>
                 <MdMarkEmailUnread />
                 info@enzyme.uz
                 </a>
 
-                <a href="Tel:+998555105015">
+                <a href="Tel:+998941027707">
                 <FaPhoneAlt className='phone_icon' />
-                +998 (00) 000 00 00
+                +998 (94) 102 77 07
                 </a>
 
-              <a target="_blank" href="https://t.me/impuls_medical_institute">
+              <a target="_blank" href="https://t.me/drabdurashidov">
                 <BsChatText />
                 enzyme_support
                 </a> <br />
-              <div >
-              <a target="_blank" href="https://t.me/impulsmi_uz">
-                <BsTelegram />
-                </a>
-              <a target="_blank" href="https://www.instagram.com/impuls_mi/">
-                <BsInstagram />
-                </a>
-              <a target="_blank" href="https://www.facebook.com/people/Impuls-Medical-Institute/100076602543508/">
-                <BsFacebook />
-                </a>
-              <a target="_blank" href="https://wa.me/message/GYTRCNFXZX6VI1?src=qr">
-                <BsWhatsapp />
-                </a>
-              </div>
+                <div >
+                  <a target="_blank" href="https://t.me/enzymenotes">
+                    <BsTelegram />
+                    </a>
+                  <a target="_blank" href="https://instagram.com/enzymenotes?igshid=NTc4MTIwNjQ2YQ==">
+                    <BsInstagram />
+                    </a>
+                  <a target="_blank" href="https://youtube.com/@enzymemedicalscience">
+                    <BsYoutube />
+                    </a>
+                </div>
             </div>
            
           </div>
