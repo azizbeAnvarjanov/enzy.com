@@ -12,11 +12,11 @@ import { BsChatText, BsTelegram, BsInstagram, BsFacebook, BsWhatsapp } from 'rea
 import { IoIosArrowDown } from 'react-icons/io';
 
 import navbar_brand from '../../imgs/logo 2 black.png'
+import logomini from '../../imgs/logo alohida.png'
 
 import { FaRegQuestionCircle } from 'react-icons/fa'
 import { FaRegUser } from 'react-icons/fa'
 import { FaShoppingBag } from 'react-icons/fa'
-
 
 
 
@@ -92,16 +92,30 @@ function Navbar() {
       document.documentElement.scrollTop = 0;
     }
 
+    
 
+    useEffect(()=>{
+      window.addEventListener('resize', ()=> {
+        if (document.documentElement.clientWidth < 870) {
+          document.querySelector('.res_img').src = logomini
+        }else{
+          document.querySelector('.res_img').src = navbar_brand
+        }
+      })
+    }, [])
 
     return (
       <>
         <div className={navbarClass ? "navbar active" : "navbar"}>
           <div className="nav">
             <div className="navbar-brand">
+              {/* <a onClick={upBtnF} href="#">
+                <img className='res_img' src={navbar_brand} alt="" />
+              </a> */}
               <a onClick={upBtnF} href="#">
-                <img src={navbar_brand} alt="" />
+                <img className='res_img' src={navbar_brand} alt="" />
               </a>
+             
               <div
                 className={nav ? "menu active" : "menu"}
                 onClick={changeClass}
@@ -180,9 +194,13 @@ function Navbar() {
               <li>
                 <a href="/aloqa">Aloqa</a>
               </li>
+              <div className="login-register mobile_register_box">
+                  <button className='login_btn'>Login</button>
+                  <button className='register_btn'>Registertion</button>
+               </div>
     
             </ul>
-            <div className="login-register">
+            <div className="login-register desktop_register_box">
               <button className='login_btn'>Login</button>
               <button className='register_btn'>Registertion</button>
             </div>

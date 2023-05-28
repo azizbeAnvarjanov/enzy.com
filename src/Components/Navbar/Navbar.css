@@ -159,12 +159,16 @@
 
 .navbar-brand
 {
-    width: 150px;
+    height: 50px;
+    overflow: hidden;
 }
 
 .navbar-brand a img
 {
-    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.navbar-brand a{
     height: 100%;
 }
 
@@ -426,6 +430,10 @@
 
 
 
+.mobile_register_box
+{
+    display: none;
+}
 
 
 
@@ -435,8 +443,16 @@
 
 
 
+@media (max-width: 1000px) {
 
-@media (max-width: 870px) {
+    .desktop_register_box
+    {
+        display: none;
+    }
+    .mobile_register_box
+    {
+        display: flex;
+    }
 
     .nav_lng
     {
@@ -449,12 +465,19 @@
 
     .navbar.active .navigation
     {
-        background: var(--gb-color);
+        background: var(--000);
     }
+    
+    .register_btn
+    {
+        background: transparent !important;
+        border: 2px solid #5d00d6;
+    }
+
 
     .navbar.active
     {
-        width: 97%;
+        width: 100%;
     }
 
 
@@ -462,6 +485,12 @@
     {
         padding: 15px 3%;
     }
+
+    .navbar.active .mobile_register_box button
+    {
+        border: 2px solid #eee;
+    }
+
 
 
     .navigation
@@ -471,7 +500,6 @@
         top: -100vh;
         width: 100%!important;
         height: 90vh !important;
-        border-radius: 10px;
         overflow: hidden;
         background: rgba(255, 255, 255, 0.281);
         flex-direction: column;
@@ -485,6 +513,22 @@
         backdrop-filter: blur(80px);
         box-shadow: 0 0 30px rgba(255, 255, 255, 0.918);
         overflow-y: scroll;
+    }
+
+    .menu_1 a,
+    .menu_2 a,
+    .menu_3 a
+    {
+        display: flex !important;
+        align-items: center !important;
+
+    }
+
+    .menu_1,
+    .menu_2,
+    .menu_3
+    {
+        width: 150px;
     }
 
     .navigation::-webkit-scrollbar
@@ -693,6 +737,8 @@
         text-align: center !important;
     }
 
+
+
     .navbar.active
     {
         padding: 0 !important;
@@ -701,11 +747,6 @@
     .navbar-brand p
     {
         font-size: .8em;
-    }
-    .navbar-brand img
-    {
-        width: 30px;
-        height: 30px;
     }
 
     .navbar-brand a
