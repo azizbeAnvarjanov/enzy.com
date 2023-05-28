@@ -352,7 +352,7 @@
 .ul_menu_2 li a,
 .ul_menu_3 li a
 {
-    color: var(--000);
+    color: var(--000) !important;
     border-radius: 0;
 }
 
@@ -501,7 +501,7 @@
         width: 100%!important;
         height: 90vh !important;
         overflow: hidden;
-        background: rgba(255, 255, 255, 0.281);
+        background: var(--000);
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
@@ -524,6 +524,13 @@
         color: #fff !important;
     }
 
+    .ul_menu_1 li a,
+    .ul_menu_2 li a,
+    .ul_menu_3 li a
+    {
+        color: var(--fff) !important;
+        border-radius: 0;
+    }
 
     .navigation::-webkit-scrollbar
     {
