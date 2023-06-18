@@ -196,13 +196,11 @@ function Navbar() {
               </li>
               <div className="login-register mobile_register_box">
                   <Link to='/login'onClick={changePages} className='login_btn'>Kirish</Link>
-                  <Link to='/login'onClick={changePages} className='register_btn'>Ro'yhatdan o'tish</Link>
                </div>
     
             </ul>
             <div className="login-register desktop_register_box">
                  <Link to='/login'onClick={changePages} className='login_btn'>Kirish</Link>
-                  <Link to='/login' onClick={changePages}className='register_btn'>Ro'yhatdan o'tish</Link>
             </div>
           </div>
         </div>
