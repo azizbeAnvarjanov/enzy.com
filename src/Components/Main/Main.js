@@ -5,6 +5,10 @@ import SliderPartners from '../SliderPartners/SliderPartners';
 import SliderBanner from '../SliderBanner/SliderBanner';
 import List from '../List/List';
 
+
+import AboutVideo from '../AboutVideo/AboutVideo';
+
+
 import { TbSchool } from 'react-icons/tb'
 
 import logos_1 from '../../imgs/logos_1.png'
@@ -25,7 +29,7 @@ function Main() {
   let settings = {
     dots: false,
     infinite: true,
-    speed: 800,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -42,29 +46,27 @@ function Main() {
             <div className='main_txt'>
                 <h1>Biz sizdagi "tibbiyot qiyin" degan stereotipingizni o'zgartiramiz!</h1>
                 <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
-                <button>Boshlash</button>
-                <a href="#">Demo</a>
+                <a className='demoBtn' href='#'>Demo</a>
             </div>
             <div className='main_txt'>
                 <h1>Kimga mazza? <del>Boylarga</del> O'qiganlarga mazza!</h1>
                 <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
-                <button>Boshlash</button>
-                <a href="#">Demo</a>
+                <a className='demoBtn' href='#'>Demo</a>
             </div>
             <div className='main_txt'>
                 <h1>Xorijiy standartlar asosida qurilgan tibbiy fundamental va klinik fanrlar platformasi</h1>
                 <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
-                <button>Boshlash</button>
-                <a href="#">Demo</a>
+                <a className='demoBtn' href='#'>Demo</a>
             </div>
         </Slider>
         <div className="laptop_img">
             <img src={img} alt="" />
         </div>
       </div>
-        <div className="about_video">
+        {/* <div className="about_video">
         <iframe width="885" height="498" src="https://www.youtube.com/embed/FaR7bnXnRjs" title="Sinapslar I fiziologiya 2-qism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+        </div> */}
+        <AboutVideo />
       
          <List />
        

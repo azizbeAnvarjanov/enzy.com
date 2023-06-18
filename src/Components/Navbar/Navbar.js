@@ -1,5 +1,5 @@
 import { useState , useEffect} from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './Navbar.css'
 
 
@@ -112,9 +112,9 @@ function Navbar() {
               {/* <a onClick={upBtnF} href="#">
                 <img className='res_img' src={navbar_brand} alt="" />
               </a> */}
-              <a onClick={upBtnF} href="#">
+              <Link onClick={upBtnF} to="/">
                 <img className='res_img' src={navbar_brand} alt="" />
-              </a>
+              </Link>
              
               <div
                 className={nav ? "menu active" : "menu"}
@@ -195,14 +195,14 @@ function Navbar() {
                 <a href="/aloqa">Aloqa</a>
               </li>
               <div className="login-register mobile_register_box">
-                  <button className='login_btn'>Login</button>
-                  <button className='register_btn'>Registertion</button>
+                  <Link to='/login'onClick={changePages} className='login_btn'>Kirish</Link>
+                  <Link to='/login'onClick={changePages} className='register_btn'>Ro'yhatdan o'tish</Link>
                </div>
     
             </ul>
             <div className="login-register desktop_register_box">
-              <button className='login_btn'>Login</button>
-              <button className='register_btn'>Registertion</button>
+                 <Link to='/login'onClick={changePages} className='login_btn'>Kirish</Link>
+                  <Link to='/login' onClick={changePages}className='register_btn'>Ro'yhatdan o'tish</Link>
             </div>
           </div>
         </div>

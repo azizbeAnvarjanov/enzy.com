@@ -1,0 +1,124 @@
+.login_page
+{
+    height: 100vh;
+    color: #fff;
+    display: flex;
+}
+
+.login_img
+{
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+    /* background: url(../../imgs/illustrate_img_login.png); */
+    overflow: hidden;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+
+
+.login_img img
+{
+    width: 700px;
+}
+
+.page_elements
+{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+.page_elements
+{
+    position: relative;
+}
+
+.page_elements .login_box, .register_box
+{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login_box
+{
+    height: 60vh;
+}
+
+.page_elements .login_box.active, .register_box.active
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 350px;
+    border: 1px solid #fafafaa3;
+    box-shadow: 0px 7px 10px #ffffff27;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    background: #5d00d65e;
+}
+
+.login_box div,
+.register_box div
+{
+    margin: 10px 0;
+}
+
+.page_elements .login_box a,
+.page_elements .register_box a
+{
+    color: #fff;
+    text-align: center;
+}
+
+.page_elements .login_box div,
+.page_elements .register_box div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login_box input,
+.register_box input
+{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+.login_box .login_btn,
+.register_box .login_btn
+{
+    text-align: center;
+    border: 2px solid #eee;
+}
+
+@media (max-width: 1000px) {
+    .login_page
+    {
+        flex-direction: column;
+        height: auto;
+        overflow: auto;
+    }
+    .login_img
+    {
+        display: none;
+    }
+
+    .page_elements
+    {
+        width: 100%;
+        height: 100vh;
+    }
+}

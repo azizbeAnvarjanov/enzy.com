@@ -4,7 +4,7 @@ import img from '../../imgs/aaa.png'
 import Anatomy from '../../imgs/Scienses imgs/Anatomy.jpg'
 import Biochemistry from '../../imgs/Scienses imgs/Biochemistry.png'
 import CellBiology from '../../imgs/Scienses imgs/Cell biology.jpeg'
-import Embryology from '../../imgs/Scienses imgs/Embryology 22.png'
+import Embryology from '../../imgs/Scienses imgs/Embryology 22.jpg'
 import Immunology from '../../imgs/Scienses imgs/Immunology.png'
 import Microbiology from '../../imgs/Scienses imgs/Microbiology.jpg'
 import Neuroanatomy from '../../imgs/Scienses imgs/Neuroanatomy.jpg'
@@ -23,6 +23,8 @@ function List() {
               <img src={CellBiology} alt="" />
             </div>
             <h2>Hujayra biologiyasi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, earum.</p>
+            <a className='active' href='#'>Boshlash</a>
           </div>
 
           <div className='Science'>
@@ -30,6 +32,8 @@ function List() {
               <img src={Embryology} alt="" />
             </div>
             <h2>Embriologiya</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, earum.</p>
+            <a href='#'>Boshlash</a>
           </div>
 
           <div className='Science'>
@@ -37,6 +41,8 @@ function List() {
               <img src={Anatomy} alt="" />
             </div>
             <h2>Anatomiya</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, earum.</p>
+            <a href='#'>Boshlash</a>
           </div>
 
           <div className='Science'>
@@ -44,6 +50,8 @@ function List() {
               <img src={Neuroanatomy} alt="" />
             </div>
             <h2>Neyroanatomiya</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, earum.</p>
+            <a href='#'>Boshlash</a>
           </div>
 
           <div className='Science'>
@@ -51,6 +59,8 @@ function List() {
               <img src={Physiology} alt="" />
             </div>
             <h2>Fiziologiya</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, earum.</p>
+            <a href='#'>Boshlash</a>
           </div>
 
           <div className='Science'>
@@ -58,6 +68,8 @@ function List() {
               <img src={Biochemistry} alt="" />
             </div>
             <h2>Bioximiya</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, earum.</p>
+            <a href='#'>Boshlash</a>
           </div>
 
           <div className='Science'>
@@ -65,6 +77,8 @@ function List() {
               <img src={Pharmacology} alt="" />
             </div>
             <h2>Farmakologiya</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, earum.</p>
+            <a href='#'>Boshlash</a>
           </div>
 
           <div className='Science'>
@@ -72,6 +86,8 @@ function List() {
               <img src={Microbiology} alt="" />
             </div>
             <h2>Mikrobiologiya</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, earum.</p>
+            <a href='#'>Boshlash</a>
           </div>
 
           <div className='Science'>
@@ -79,6 +95,8 @@ function List() {
               <img src={Immunology} alt="" />
             </div>
             <h2>Immunologiya</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, earum.</p>
+            <a href='#'>Boshlash</a>
           </div>
 
           <div className='Science'>
@@ -86,6 +104,8 @@ function List() {
               <img src={Pathology} alt="" />
             </div>
             <h2>Patalogiya</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, earum.</p>
+            <a href='#'>Boshlash</a>
           </div>
 
         </div>
