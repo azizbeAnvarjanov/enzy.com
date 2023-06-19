@@ -1,5 +1,7 @@
 import React from 'react'
 import './Main.css';
+import {Link} from 'react-router-dom';
+
 
 import SliderPartners from '../SliderPartners/SliderPartners';
 import SliderBanner from '../SliderBanner/SliderBanner';
@@ -46,17 +48,17 @@ function Main() {
             <div className='main_txt'>
                 <h1>Biz sizdagi "tibbiyot qiyin" degan stereotipingizni o'zgartiramiz!</h1>
                 <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
-                <a className='demoBtn' href='#'>Demo</a>
+                <Link className='demoBtn' to='/platform'>Demo</Link>
             </div>
             <div className='main_txt'>
                 <h1>Kimga mazza? <del>Boylarga</del> O'qiganlarga mazza!</h1>
                 <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
-                <a className='demoBtn' href='#'>Demo</a>
+                <Link className='demoBtn' to='/platform'>Demo</Link>
             </div>
             <div className='main_txt'>
                 <h1>Xorijiy standartlar asosida qurilgan tibbiy fundamental va klinik fanrlar platformasi</h1>
                 <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
-                <a className='demoBtn' href='#'>Demo</a>
+                <Link className='demoBtn' to='/platform'>Demo</Link>
             </div>
         </Slider>
         <div className="laptop_img">

@@ -17,7 +17,7 @@ function AboutVideo() {
             </div>
             <div className='about_txt'>
                 <h1>Ezyme o'zi nima</h1> <br />
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde impedit beatae sint dolorum. Expedita pariatur deleniti tenetur non labore dolores laborum possimus saepe hic perferendis at architecto, fuga modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde impedit beatae sint dolorum. Expedita pariatur deleniti tenetur non labore dolores laborum possimus saepe hic perferendis at architecto, fuga modi</h4>
+                <h4>O’zbekistonda tibbiyotni zamonaviy va ohirgi manbalar ya’ni USMLE tizimi asosida o’zlashtirishda ko’maklashuvchi elektron ta’lim platfomasi.</h4>
                 <br />
                 <p> <MdOutlineDone /> Darsning video yozuvi</p>
                 <p> <MdOutlineDone /> Noyob usul</p>
