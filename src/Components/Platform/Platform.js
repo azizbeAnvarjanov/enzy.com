@@ -28,7 +28,7 @@ function Platform() {
         <div className="platform_box">
             <div className="course_descriptions">
                 <h1>Embriologiya</h1>  <br />   
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nulla deleniti at iusto maxime dolorem deserunt repellendus debitis, corrupti atque, repudiandae illum eum? Quaerat aliquid, unde nam veniam itaque asperiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi neque aspernatur nam minus. Quibusdam dolore obcaecati nesciunt et soluta sunt beatae asperiores! Suscipit praesentium totam explicabo est eaque molestiae magni?</p> 
+                <p>Embriologiya – tuxum hujayra urug’langandan so’ng, shu hujayradan yangi organizmning, ona organizmida shakllanishini o’rganadigan fan. Shu kungacha yurtimizda bakalavr bosqichidagi talabalar uchun ushbu fan juda qiziq bo’lmagan, chunki bu fan alohida fan sifatida emas, balki boshqa bir fanning tarkibiga kirgan holatda o’qitilgan. Ishoning, aslida bu juda ham qiziqarli va hayratlanarli shuningdek qaysidir ma’noda mo’jizaviy fan. Buni o’qish davomida tushunib yetasiz.</p> 
             </div> 
             <div className="course_video_treyler">
                 <div className="video_trayler_box">

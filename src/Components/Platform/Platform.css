@@ -37,6 +37,11 @@
     padding: 0 70px;
 }
 
+.course_descriptions p
+{
+    width: 80%;
+}
+
 
 .course_video_treyler
 {
