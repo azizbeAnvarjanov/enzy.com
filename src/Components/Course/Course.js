@@ -32,7 +32,7 @@ const data = [
         mavzu: "Embriologiya 3 - dars 1 - qism",
         mavzu_matn: "Mavzu matni 3",
         mavzu_linki: "https://youtu.be/4160jljXtns?list",
-        mavzu_videosi: "Video",
+        mavzu_videosi: "Embriologiya 3 - dars 1 - qism",
         mavzu_testi: "Test",
         mavzu_note: "Note",
         mavzu_note_link: "https://firebasestorage.googleapis.com/v0/b/books-b4672.appspot.com/o/enzyme%2F1.pdf?alt=media&token=e6b5282e-7f34-4086-b121-944dcf630078",
@@ -89,7 +89,7 @@ function Course() {
     
     const [selected, setSelected] = useState(0);
     const [video_link, setVideo_link] = useState("https://youtu.be/mYyUO4TZHCs?list");
-    const [note, setNote] = useState("");
+    const [note, setNote] = useState("https://firebasestorage.googleapis.com/v0/b/books-b4672.appspot.com/o/enzyme%2F1.pdf?alt=media&token=e6b5282e-7f34-4086-b121-944dcf630078");
     const [pdf_class, setPdf_class] = useState(false);
 
     function change_video(i) {
