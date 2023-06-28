@@ -1,6 +1,8 @@
 import React from 'react'
 import './AboutVideo.css'
 
+import ReactPlayer from 'react-player/youtube'
+
 import {MdOutlineDone} from 'react-icons/md'
 
 import { TbTemplate } from 'react-icons/tb'
@@ -12,8 +14,8 @@ function AboutVideo() {
     <div className='about_us_box'>
 
         <div className="about_video_box">
-            <div>
-                <iframe width="885" height="498" src="https://www.youtube.com/embed/FaR7bnXnRjs" title="Sinapslar I fiziologiya 2-qism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div className='div'>
+                <ReactPlayer controls className="video" url='https://www.youtube.com/embed/FaR7bnXnRjs' />
             </div>
             <div className='about_txt'>
                 <h1>Ezyme o'zi nima</h1> <br />
