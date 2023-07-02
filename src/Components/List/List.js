@@ -3,7 +3,6 @@ import './List.css'
 
 import _1 from '../../imgs/Scienses imgs/1.jpg'
 import _5 from '../../imgs/Scienses imgs/cell_biology.jpg'
-import _2 from '../../imgs/Scienses imgs/anatomy.jpg'
 import _3 from '../../imgs/Scienses imgs/Biochemistry.jpg'
 import _4 from '../../imgs/Scienses imgs/Biochemistry.jpg'
 import _6 from '../../imgs/Scienses imgs/Microbiology.jpg'
@@ -52,7 +51,7 @@ function List() {
           <div className='_1 _2'>
               <div className='kurs'>
                   <div className="kurs_top">
-                      <img src={_2} alt="" />
+                      <img src={_1} alt="" />
                   </div>
                   <div className="kurs_bottom">
                      <div>
