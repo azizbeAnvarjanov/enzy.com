@@ -2,6 +2,7 @@
 {
     display: flex;
     padding: 50px;
+    margin-bottom: 50px;
 }
 
 .about_video_box div
@@ -12,13 +13,23 @@
     justify-content: flex-start;
     flex-direction: column;
     /* padding: 10px; */
-    color: #fff;
+    color: #000;
 }
 
 
 .about_txt
 {
     padding: 20px !important;
+}
+
+.about_txt a
+{
+    background: #1da1f2;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: #fff;    
 }
 
 .about_txt p
@@ -43,9 +54,34 @@
 
 .about_video_box iframe
 {
-    width: 100% !important;
-    height: 55vh !important;
+    width: 80% !important;
+    height: 50vh !important;
     border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.div
+{
+    position: relative;
+    overflow: inherit !important;
+}
+
+.about_video_box .div::before
+{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background: #1da1f2a0;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: rotate(9.5deg) translate(-50%,-35%);
+    z-index: -1;
+    border-radius: 20px;
+    box-shadow: 0 10px 100px 1px #1da0f2a5;
+    
 }
 
 .about_video_box div 
@@ -58,7 +94,7 @@
 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    color: #fff;
+    color: #000;
     text-align: center;
     padding: 30px;
     height: 60vh;
@@ -67,6 +103,8 @@
 .skills_box .skill
 {
     padding: 20px;
+    display: grid;
+    place-items: center;
 }
 
 .skills_box .skill svg
@@ -74,7 +112,7 @@
     font-size: 5em;
     position: relative;
     padding-bottom: 10px;
-    border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #1da1f2;
     margin-bottom: 10px;
 }
 
@@ -105,7 +143,7 @@
     {
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        color: #fff;
+        color: #000;
         text-align: center;
         padding: 20px;
         height: auto;
@@ -119,7 +157,7 @@
     {
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        color: #fff;
+        color: #000;
         text-align: center;
         padding: 20px;
         height: auto;

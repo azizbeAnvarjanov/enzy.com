@@ -28,7 +28,6 @@ function Footer() {
         <div className='footer_wrapper'>
         <div className="footer_boxs">
             <div className='footer_logo_div'>
-              <img src={logomini} alt="" />
               <h3>Enyzyme</h3>
             </div>
             <div className="info_enyzyme">

@@ -45,6 +45,7 @@ footer
 .footer_logo_div h3
 {
     font-size: 2em;
+    color: #000;
 }
 
 .footer_boxs p
@@ -66,10 +67,10 @@ footer
     margin-top: 20px;
     width: 100%;
     height: 10vh;
-    color: var(--gb-color);
+    color: red !important;
     display: flex;
     align-items: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.418);
+    border-top: 1px solid rgba(10, 2, 2, 0.418);
     font-weight: 600;
 }
 
@@ -83,7 +84,7 @@ footer
 }
 .footer_boxs a
 {
-    color: #fff;
+    color: #000;
     line-height: 30px;
     font-weight: 400;
 }
@@ -103,7 +104,7 @@ footer
 
 .footer_boxs h2, h3
 {
-    color: var(--fff);
+    color: #000;
 }
 
 
@@ -143,7 +144,7 @@ footer
     top: 0%;
     left: 37%;
     transform: translate(-50%,-50%);
-    border: 1px solid var(--fff) !important;
+    border: 1px solid var(--000) !important;
     border-radius: 5px;
     font-size: 2em;
     background: var(--fff);
@@ -157,7 +158,7 @@ footer
 {
     background: var(--gb-color);
     color: var(--fff);
-    border-color: var(--fff);
+    border: 1px solid #fff !important;
 }
 
 

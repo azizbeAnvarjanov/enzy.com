@@ -10,14 +10,14 @@ import List from '../List/List';
 
 import AboutVideo from '../AboutVideo/AboutVideo';
 
+import illustrate_1 from '../../imgs/illustrates/1.png'
+import illustrate_2 from '../../imgs/illustrates/2.png'
+import illustrate_3 from '../../imgs/illustrates/3.png'
+
 
 import { TbSchool } from 'react-icons/tb'
 
-import logos_1 from '../../imgs/logos_1.png'
-import logos_2 from '../../imgs/logos_2.png'
-import logos_3 from '../../imgs/logos_3.png'
-import logos_4 from '../../imgs/logos_4.png'
-import logos_5 from '../../imgs/logos_5.png'
+
 import img from '../../imgs/laptop-png.png'
 import Slider from 'react-slick';
 
@@ -29,14 +29,13 @@ import abd from '../../imgs/abd.jpg'
 function Main() {
 
   let settings = {
-    dots: false,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      
   };
 
 
@@ -46,30 +45,60 @@ function Main() {
        <div className='SliderBanner'>
         <Slider className='SliderBanner_div'{...settings}>
             <div className='main_txt'>
-                <h1>Biz sizdagi "tibbiyot qiyin" degan stereotipingizni o'zgartiramiz!</h1>
-                <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
-                <Link className='demoBtn' to='/platform'>Demo</Link>
+                <div>
+                    <h1>Biz sizdagi "tibbiyot qiyin" degan stereotipingizni o'zgartiramiz!</h1>
+                    <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
+                    <Link className='demoBtn' to='/platform'>Demo</Link>
+                </div>
+                <div>
+                  <img src={illustrate_1} alt="" />
+                </div>
             </div>
             <div className='main_txt'>
-                <h1>Kimga mazza? <del>Boylarga</del> O'qiganlarga mazza!</h1>
-                <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
-                <Link className='demoBtn' to='/platform'>Demo</Link>
+                <div>
+                    <h1>Kimga mazza? <del>Boylarga</del> O'qiganlarga mazza!</h1>
+                    <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
+                    <Link className='demoBtn' to='/platform'>Demo</Link>
+                </div>
+                <div>
+                  <img src={illustrate_2} alt="" />
+                </div>
             </div>
             <div className='main_txt'>
-                <h1>Xorijiy standartlar asosida qurilgan tibbiy fundamental va klinik fanrlar platformasi</h1>
-                <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
-                <Link className='demoBtn' to='/platform'>Demo</Link>
+               <div>
+                    <h1>Xorijiy standartlar asosida qurilgan tibbiy fundamental va klinik fanrlar platformasi</h1>
+                    <h2>Tibbiyotni osonroq biz bilan o'zlashtiring!</h2>
+                    <Link className='demoBtn' to='/platform'>Demo</Link>
+               </div>
+               <div>
+                  <img src={illustrate_3} alt="" />
+               </div>
             </div>
         </Slider>
-        <div className="laptop_img">
-            <img src={img} alt="" />
-        </div>
       </div>
+      <div className="statistic_box">
+          <div>
+            <h1>16</h1>
+            <p>Onlayn dars bir oy ichida</p>
+          </div>
+          <div>
+            <h1>90+</h1>
+            <p>foiz DTM ga tayorgarlik</p>
+          </div>
+          <div>
+            <h1>24/7</h1>
+            <p>shaxsiy kurator ko'magi</p>
+          </div>
+          <div>
+            <h1>1000+</h1>
+            <p>Onlayn DTM testlar</p>
+          </div>
+        </div>
         <AboutVideo />
       
          <List />
        
-        {/* <SliderPartners /> */}
+    
         <div className="team">
             <h1>Bizning jamoa</h1>
             <div className='team_box'>

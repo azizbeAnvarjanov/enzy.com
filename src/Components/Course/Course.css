@@ -2,8 +2,7 @@
 {
     display: flex;
     width: 100%;
-    margin-top: 80px;
-    padding: 30px;
+    padding: 80px 30px;
 }
 
 .course_video_box
@@ -24,7 +23,7 @@
     width: 100%;
     height: 60vh;
     margin-bottom: 20px;
-    box-shadow: -6px 51px 72px 50px rgba(247, 247, 247, 0.16);
+    box-shadow: -6px 51px 72px 50px #1da0f234;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -42,6 +41,7 @@
     align-items: center !important;
     justify-content: space-between;
     background: #fff;
+    border: 1px solid #ddd;
     padding: 10px;
     border-radius: 10px;
     position: relative;
@@ -62,6 +62,7 @@
     position: absolute;
     right: 15px;
     top: 50%;
+    color: #1da1f2;
     transform: translateY(-50%);
 }
 
@@ -74,7 +75,7 @@
     width: 100%;
     max-height: auto;
     color: #fff;
-    background: #5d00d6;
+    background: #1da1f2;
     border-radius:4px;
     margin-bottom: 5px;
     overflow: hidden;

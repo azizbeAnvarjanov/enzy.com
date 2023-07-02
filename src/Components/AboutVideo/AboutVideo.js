@@ -24,6 +24,7 @@ function AboutVideo() {
                 <p> <MdOutlineDone /> Darsning video yozuvi</p>
                 <p> <MdOutlineDone /> Noyob usul</p>
                 <p> <MdOutlineDone /> Qulay muhit</p>
+                <a href="#">Batafsil</a>
             </div>
         </div>
 

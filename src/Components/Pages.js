@@ -6,6 +6,7 @@ import Login from './Login/Login';
 import Main from './Main/Main';
 import Platform from './Platform/Platform';
 
+
 function Pages() {
 
   return (
