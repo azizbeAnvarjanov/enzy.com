@@ -442,9 +442,13 @@
 @media (max-width: 780px) {
     .SliderBanner_div
     {
+        background: #000;
         height: 100vh;
+        overflow: hidden;
         flex-direction: column;
     }
+    
+
 
     .statistic_box
     {
