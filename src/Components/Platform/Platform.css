@@ -237,7 +237,7 @@
 .video_trayler_box a
 {
     margin: 10px 0;
-    background: #1da1f2;
+    /* background: #1da1f2; */
     color: #fff;
     width: 100%;
     display: flex;

@@ -35,7 +35,7 @@ function Platform() {
                     <div className="video_platform">
                     <ReactPlayer controls className="video" url='https://www.youtube.com/embed/FaR7bnXnRjs' />
                     </div>
-                    <Link to="/course">Kursni boshlash</Link>
+                    <Link to="/course" className='bg_gradient'>Kursni boshlash</Link>
                 </div>
             </div> 
         </div> 

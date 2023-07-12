@@ -26,8 +26,7 @@ const data = [
         mavzu_videosi: "Embryology: Fertilization, 2-dars USMLE",
         mavzu_testi: "Test",
         mavzu_note: "Note",
-        mavzu_note_link: "https://drive.google.com/file/d/1p87l0HAHOJyQ8tXK6AXbPoUcWa3kVb1R/view",
-        // mavzu_note_link: "https://firebasestorage.googleapis.com/v0/b/books-b4672.appspot.com/o/enzyme%2F2.pdf?alt=media&token=c806b69a-70aa-49b9-9a05-4c7343384924",
+        mavzu_note_link: "https://firebasestorage.googleapis.com/v0/b/books-b4672.appspot.com/o/enzyme%2F2.pdf?alt=media&token=c806b69a-70aa-49b9-9a05-4c7343384924",
     },
     {
         mavzu: "Embriologiya 3 - dars 1 - qism",
@@ -136,7 +135,7 @@ function Course() {
             <div className="course_theme_lists">
                 {
                     data.map((el, i) => (
-                        <div key={i} className='acc'>
+                        <div key={i} className='acc bg_gradient'>
                             <div className="acc_txt" onClick={() => toggle(i, el.mavzu_note_link)}
                             
                             >

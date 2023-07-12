@@ -7,7 +7,6 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { MdMarkEmailUnread } from 'react-icons/md';
 import { BsChatText, BsTelegram, BsInstagram, BsYoutube} from 'react-icons/bs';
 
-import logomini from '../../imgs/logo alohida.png'
 
 
 function Footer() {

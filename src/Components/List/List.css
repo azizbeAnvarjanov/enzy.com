@@ -90,7 +90,7 @@
 
 .btn_buy
 {
-    background: #1da1f2;
+    /* background: rgb(73, 163, 241); */
     color: #fff !important;
     padding: 10px;
     margin-right: 10px;
@@ -99,7 +99,12 @@
 
 .kurs_btn a
 {
-    color: #1da1f2;
+    color: rgb(73, 163, 241);
+}
+
+.kurs_top a:hover img
+{
+    transform: scale(1.2);
 }
 
 
@@ -125,6 +130,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover !important;
+    transition: .5s;
 }
 
 
@@ -133,6 +139,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: .5s;
 }
 
 

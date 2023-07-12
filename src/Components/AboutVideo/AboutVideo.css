@@ -24,7 +24,6 @@
 
 .about_txt a
 {
-    background: #1da1f2;
     width: 100px;
     text-align: center;
     padding: 10px 0;
@@ -73,14 +72,23 @@
     position: absolute;
     width: 80%;
     height: 100%;
-    background: #1da1f2a0;
+    /* background: #1da1f2a0; */
     z-index: 1;
     left: 50%;
     top: 50%;
     transform: rotate(9.5deg) translate(-50%,-35%);
     z-index: -1;
     border-radius: 20px;
-    box-shadow: 0 10px 100px 1px #1da0f2a5;
+    background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    background-position-y: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    box-shadow:  rgba(56, 142, 254, 0.926) 0rem 0.1875rem 0.1875rem 0rem, rgba(26, 115, 232, 0.2) 0rem 0.1875rem 0.0625rem -0.125rem, rgba(26, 115, 232, 0.842) 0rem 0.0625rem 0.3125rem 0rem !important;
+    border-radius: 10px !important;
+    /* box-shadow: 0 10px 100px 1px #1da0f2a5; */
     
 }
 
@@ -95,8 +103,9 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     color: #000;
+    gap: 20px;
     text-align: center;
-    padding: 30px;
+    padding: 30px 100px;
     height: 60vh;
 }
 
@@ -105,14 +114,24 @@
     padding: 20px;
     display: grid;
     place-items: center;
+    border: 1px solid #ddd;
+    color: #000;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.skills_box .skill:hover
+{
+    box-shadow: 0 15px 100px 1px #1da0f24d;    
 }
 
 .skills_box .skill svg
 {
-    font-size: 5em;
+    font-size: 6em;
     position: relative;
     padding-bottom: 10px;
-    border-bottom: 5px solid #1da1f2;
+    border-bottom: 5px solid #fff;
+    color: rgb(11, 133, 241);
     margin-bottom: 10px;
 }
 

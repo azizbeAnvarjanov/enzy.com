@@ -7,7 +7,7 @@ import {MdOutlineDone} from 'react-icons/md'
 
 import { TbTemplate } from 'react-icons/tb'
 import { IoEyeSharp, IoExtensionPuzzleOutline } from 'react-icons/io5'
-
+import { BsPersonVideo } from 'react-icons/bs'
 
 function AboutVideo() {
   return (
@@ -15,7 +15,7 @@ function AboutVideo() {
 
         <div className="about_video_box">
             <div className='div'>
-                <ReactPlayer controls className="video" url='https://www.youtube.com/embed/FaR7bnXnRjs' />
+                <ReactPlayer controls className="video" url='https://youtu.be/0VHtxPc0m-4' />
             </div>
             <div className='about_txt'>
                 <h1>Ezyme o'zi nima</h1> <br />
@@ -24,7 +24,7 @@ function AboutVideo() {
                 <p> <MdOutlineDone /> Darsning video yozuvi</p>
                 <p> <MdOutlineDone /> Noyob usul</p>
                 <p> <MdOutlineDone /> Qulay muhit</p>
-                <a href="#">Batafsil</a>
+                <a className='bg_gradient' href="#">Batafsil</a>
             </div>
         </div>
 
@@ -40,7 +40,7 @@ function AboutVideo() {
                 </div>
                 <div className="skill">
                    <div className="skill_info">
-                      <IoEyeSharp />
+                      <BsPersonVideo />
                       <h1>DARSLAR</h1>
                       <p>YouTube, Telegram va instagram kabi ommabop tarmoqlarda darslarni yurutib borish;</p>
                    </div>

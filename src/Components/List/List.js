@@ -1,5 +1,7 @@
 import React from 'react'
 import './List.css'
+import { Link } from 'react-router-dom';
+
 
 import _1 from '../../imgs/Scienses imgs/1.jpg'
 import _5 from '../../imgs/Scienses imgs/cell_biology.jpg'
@@ -12,6 +14,14 @@ import _8 from '../../imgs/Scienses imgs/Pharmacology.jpg'
 
 
 function List() {
+
+  function upBtnF() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+
+
   return (
     <div className='list'>
         <h1>Bizning kusrlar</h1>
@@ -19,7 +29,7 @@ function List() {
           <div className='_1'>
               <div className='kurs'>
                   <div className="kurs_top">
-                      <img src={_1} alt="" />
+                      <Link onClick={upBtnF} to="/platform"><img src={_1} alt="" /></Link>
                   </div>
                   <div className="kurs_bottom">
                      <div>
@@ -27,14 +37,14 @@ function List() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A exercitationem magni quis placeat velit consequuntur eum magnam voluptas est reiciendis mollitia debitis asperiores, eius aspernatur porro accusantium, voluptatibus rem quia?</p>
                      </div>
                       <div className="kurs_btn">
-                        <a className='btn_buy' href="#">Sotib olish</a>
-                        <a href="#">350 000 UZS</a>
+                        <Link onClick={upBtnF} className='btn_buy bg_gradient' to="/platform">Bepul</Link>
+                        <a href="#">0 UZS</a>
                       </div>
                   </div>
               </div>
               <div className='kurs'>
                   <div className="kurs_top">
-                      <img src={_5} alt="" />
+                      <a href="#"><img src={_5} alt="" /></a>
                   </div>
                   <div className="kurs_bottom">
                   <div>
@@ -42,7 +52,7 @@ function List() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A exercitationem magni quis placeat velit consequuntur eum magnam voluptas est reiciendis mollitia debitis asperiores, eius aspernatur porro accusantium, voluptatibus rem quia?</p>
                      </div>
                       <div className="kurs_btn">
-                        <a href="#" className='btn_buy'>Sotib olish</a>
+                        <a href="#" className='btn_buy bg_gradient'>Sotib olish</a>
                         <a href="#">350 000 UZS</a>
                       </div>
                   </div>
@@ -51,7 +61,7 @@ function List() {
           <div className='_1 _2'>
               <div className='kurs'>
                   <div className="kurs_top">
-                      <img src={_1} alt="" />
+                      <a href="#"><img src={_1} alt="" /></a>
                   </div>
                   <div className="kurs_bottom">
                      <div>
@@ -59,14 +69,14 @@ function List() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A exercitationem magni quis placeat velit consequuntur eum magnam voluptas est reiciendis mollitia debitis asperiores, eius aspernatur porro accusantium, voluptatibus rem quia?</p>
                      </div>
                       <div className="kurs_btn">
-                        <a className='btn_buy' href="#">Sotib olish</a>
+                        <a className='btn_buy bg_gradient' href="#">Sotib olish</a>
                         <a href="#">350 000 UZS</a>
                       </div>
                   </div>
               </div>
               <div className='kurs'>
                   <div className="kurs_top">
-                      <img src={_7} alt="" />
+                      <a href="#"><img src={_7} alt="" /></a>
                   </div>
                   <div className="kurs_bottom">
                   <div>
@@ -74,7 +84,7 @@ function List() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A exercitationem magni quis placeat velit consequuntur eum magnam voluptas est reiciendis mollitia debitis asperiores, eius aspernatur porro accusantium, voluptatibus rem quia?</p>
                      </div>
                       <div className="kurs_btn">
-                        <a href="#" className='btn_buy'>Sotib olish</a>
+                        <a href="#" className='btn_buy bg_gradient'>Sotib olish</a>
                         <a href="#">350 000 UZS</a>
                       </div>
                   </div>
@@ -83,7 +93,7 @@ function List() {
           <div className='_1 _3'>
               <div className='kurs'>
                   <div className="kurs_top">
-                      <img src={_1} alt="" />
+                      <a href="#"><img src={_3} alt="" /></a>
                   </div>
                   <div className="kurs_bottom">
                      <div>
@@ -91,14 +101,14 @@ function List() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A exercitationem magni quis placeat velit consequuntur eum magnam voluptas est reiciendis mollitia debitis asperiores, eius aspernatur porro accusantium, voluptatibus rem quia?</p>
                      </div>
                       <div className="kurs_btn">
-                        <a className='btn_buy' href="#">Sotib olish</a>
+                        <a className='btn_buy bg_gradient' href="#">Sotib olish</a>
                         <a href="#">350 000 UZS</a>
                       </div>
                   </div>
               </div>
               <div className='kurs'>
                   <div className="kurs_top">
-                      <img src={_4} alt="" />
+                  <a href="#"><img src={_4} alt="" /></a>
                   </div>
                   <div className="kurs_bottom">
                   <div>
@@ -106,7 +116,7 @@ function List() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A exercitationem magni quis placeat velit consequuntur eum magnam voluptas est reiciendis mollitia debitis asperiores, eius aspernatur porro accusantium, voluptatibus rem quia?</p>
                      </div>
                       <div className="kurs_btn">
-                        <a href="#" className='btn_buy'>Sotib olish</a>
+                        <a href="#" className='btn_buy bg_gradient'>Sotib olish</a>
                         <a href="#">350 000 UZS</a>
                       </div>
                   </div>
@@ -115,7 +125,7 @@ function List() {
           <div className='_1 _4'>
               <div className='kurs'>
                   <div className="kurs_top">
-                      <img src={_8} alt="" />
+                  <a href="#"><img src={_8} alt="" /></a>
                   </div>
                   <div className="kurs_bottom">
                      <div>
@@ -123,14 +133,14 @@ function List() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A exercitationem magni quis placeat velit consequuntur eum mag?</p>
                      </div>
                       <div className="kurs_btn">
-                        <a className='btn_buy' href="#">Sotib olish</a>
+                        <a className='btn_buy bg_gradient' href="#">Sotib olish</a>
                         <a href="#">350 000 UZS</a>
                       </div>
                   </div>
               </div>
               <div className='kurs'>
                   <div className="kurs_top">
-                      <img src={_6} alt="" />
+                      <a href="#"><img src={_6} alt="" /></a>
                   </div>
                   <div className="kurs_bottom">
                   <div>
@@ -138,7 +148,7 @@ function List() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A exercitationem magni quis placeat velit consequuntur a?</p>
                      </div>
                       <div className="kurs_btn">
-                        <a href="#" className='btn_buy'>Sotib olish</a>
+                        <a href="#" className='btn_buy bg_gradient'>Sotib olish</a>
                         <a href="#">350 000 UZS</a>
                       </div>
                   </div>

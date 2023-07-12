@@ -3,7 +3,6 @@ import React from 'react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-import img from '../../imgs/laptop-png.png'
 
 import Slider from 'react-slick';
 
@@ -41,9 +40,6 @@ function SliderBanner() {
                 <a href="#">Demo</a>
             </div>
         </Slider>
-        <div className="laptop_img">
-            <img src={img} alt="" />
-        </div>
       </div>
 
     </>
