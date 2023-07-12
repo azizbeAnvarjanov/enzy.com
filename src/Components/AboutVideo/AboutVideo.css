@@ -152,7 +152,7 @@
     }
     .about_video_box div
     {
-        width: 100%;
+        width: 100% !important;
     }
 
 }
@@ -185,6 +185,11 @@
     .about_video_box
     {
         padding: 5px;
+    }
+
+    .about_video_box iframe
+    {
+        width: 98% !important;
     }
     
 
