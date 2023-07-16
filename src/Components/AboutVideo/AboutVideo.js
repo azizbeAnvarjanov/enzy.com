@@ -6,8 +6,8 @@ import ReactPlayer from 'react-player/youtube'
 import {MdOutlineDone} from 'react-icons/md'
 
 import { TbTemplate } from 'react-icons/tb'
-import { IoEyeSharp, IoExtensionPuzzleOutline } from 'react-icons/io5'
-import { BsPersonVideo } from 'react-icons/bs'
+import { IoExtensionPuzzleOutline } from 'react-icons/io5'
+import { FaBookOpen } from 'react-icons/fa'
 
 function AboutVideo() {
   return (
@@ -33,21 +33,27 @@ function AboutVideo() {
             <div className='skills_box'>
                 <div className="skill">
                    <div className="skill_info">
-                      <TbTemplate />
+                      <div className="skill_icon">
+                        <TbTemplate />
+                      </div>
                       <h1>PLATFORMA</h1>
                       <p>O’zbekiston tibbiyot sohasi  talabalari, ordinator-magistrlari  hamda shifokorlari uchun  elektron tibbiy ta’lim  platformasini joriy qilish;</p>
                    </div>
                 </div>
                 <div className="skill">
                    <div className="skill_info">
-                      <BsPersonVideo />
+                        <div className="skill_icon">
+                            <FaBookOpen />
+                        </div>
                       <h1>DARSLAR</h1>
                       <p>YouTube, Telegram va instagram kabi ommabop tarmoqlarda darslarni yurutib borish;</p>
                    </div>
                 </div>
                 <div className="skill">
                    <div className="skill_info">
-                     <IoExtensionPuzzleOutline />
+                    <div className="skill_icon">
+                        <IoExtensionPuzzleOutline />
+                    </div>
                       <h1>KEYSLAR</h1>
                       <p>Mualliflik kitoblar; notelar; vaziyatli masalalar; test va boshqa materiallar bilan ta’minlash</p>
                    </div>

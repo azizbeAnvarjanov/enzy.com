@@ -3,8 +3,7 @@ import './Main.css';
 import {Link} from 'react-router-dom';
 
 
-import SliderPartners from '../SliderPartners/SliderPartners';
-import SliderBanner from '../SliderBanner/SliderBanner';
+
 import List from '../List/List';
 
 import telgram from '../../imgs/telegram img.png'
@@ -12,20 +11,24 @@ import telgram from '../../imgs/telegram img.png'
 
 import AboutVideo from '../AboutVideo/AboutVideo';
 
-import illustrate_1 from '../../imgs/illustrates/1.png'
-import illustrate_2 from '../../imgs/illustrates/2.png'
-import illustrate_3 from '../../imgs/illustrates/3.png'
+
 
 
 import { FaTelegramPlane } from 'react-icons/fa'
+import { MdOpenInNew } from 'react-icons/md'
 
 
-import Slider from 'react-slick';
+
 
 import dt from '../../imgs/dt.jpg'
 import aa from '../../imgs/aaa.jpg'
 import abd from '../../imgs/abd.jpg'
-
+import img_box_banner_img from '../../imgs/team_img.jpg'
+import dots_img from '../../imgs/dots.png'
+import circle_img_1 from '../../imgs/gallery img/3.jpg'
+import circle_img_2 from '../../imgs/gallery img/2.jpg'
+import circle_img_3 from '../../imgs/gallery img/1.jpg'
+import circle_img_4 from '../../imgs/gallery img/5.jpg'
 
 function Main() {
 
@@ -43,7 +46,7 @@ function Main() {
 
   return (
     <>
-       <div className='SliderBanner'>
+       {/* <div className='SliderBanner'>
         <Slider className='SliderBanner_div'{...settings}>
             <div className='main_txt'>
                 <div>
@@ -76,8 +79,36 @@ function Main() {
                </div>
             </div>
         </Slider>
-      </div>
-      <div className="statistic_box bg_gradient">
+      </div> */}
+
+      <div className="main_banner">
+          <div className="banner_txt">
+            <h1>ENZYME</h1>
+            <h2>Biz sizdagi <del>"Tibbiyot qiyin"</del> degan stereotipingizni o'zgartiramiz!</h2> <br />
+            <h3>Xorijiy standartlar asosida qurilgan tibbiy fundamental va klinik fanrlar platformasi</h3>
+            <a href="#">Demo sinab ko'rish <MdOpenInNew /></a>
+          </div>
+              <img className='dots_img' src={dots_img} alt="" />
+
+          <div className="banner_box">
+            <div className="img-circle_1 circle_imgs">
+              <img src={circle_img_1} alt="" />
+            </div>
+            <div className="img-circle_2 circle_imgs">
+              <img src={circle_img_2} alt="" />
+            </div>
+            <div className="img-circle_3 circle_imgs">
+              <img src={circle_img_3} alt="" />
+            </div>
+            <div className="img-circle_4 circle_imgs">
+              <img src={circle_img_4} alt="" />
+            </div>
+              <div className="img_box_banner">
+                  <img src={img_box_banner_img} alt="" />
+              </div>
+          </div>
+      </div> 
+      <div className="statistic_box">
           <div>
             <h1>16</h1>
             <p>Onlayn dars bir oy ichida</p>
@@ -136,13 +167,12 @@ function Main() {
             </div>
         </div>
 
-        <div className="team_img"></div>
         <div className="telegram_link">
           <div className="link_img">
             <img src={telgram} alt="" />
           </div>
           <div className="link_info">
-            <h1>O'qituvchilarimiz va metodistlarimiz tomonidan imtihonga tayorlarlik ko'rish uchun bepul o'quv materiallariga ega bo'ling</h1>
+            <h1>O'qituvchilarimiz va metodistlarimiz tomonidan imtihonga tayorgarlik ko'rish uchun bepul o'quv materiallariga ega bo'ling</h1>
             <div className="tel_link">
               <Link to="https://t.me/enzymenotes" className='bg_gradient' target="_blank"><FaTelegramPlane />
               Bizning telegram kanalimizga obuna bo'ling</Link>
